@@ -7,6 +7,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+export JAVA_TOOL_OPTIONS="-javaagent:$(pwd)/rook.jar -DROOKOUT_TOKEN=f02a70f830ac77e9ac9d120c5631179cb84416317b6b49095ea99673ba988468 -DROOKOUT_LABELS=env:dev"
 
 import java.util.Optional;
 
